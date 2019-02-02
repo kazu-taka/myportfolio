@@ -5,6 +5,14 @@
           <h1>This is my portfolio.</h1>
       </div>
   </div>
+  
+  <div class="pictures">
+    <div class="picture">
+      <img class="activator" src="assets/images/app.image.png">
+    </div>
+  </div>
+  
+  
 </template>
 
 <style scoped>

@@ -18,7 +18,7 @@
     margin: auto;
     text-align: center;
     font-family: 'Yeseva One', cursive;
-    
+    font-size: 40px;
 }
 
 .li{
