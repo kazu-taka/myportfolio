@@ -6,12 +6,14 @@
           <li><router-link to="/about">About</router-link></li>
           <li><router-link to="/myskills">My skills</router-link></li>
           <li><router-link to="/works">Works</router-link></li>
+          <li><router-link to="/contacts">Contacts</router-link></li>
         </ul>
   </div>
 </nav>
 </template>
 
 <style scoped>
+
 
 .nav-wrapper{
     display: table;

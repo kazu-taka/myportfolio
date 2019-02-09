@@ -2,39 +2,34 @@
   <div class="card-wrapper"> 
   
   <div class="card">
-    <div class="card-image waves-effect waves-block waves-light">
-      <img class="activator" src="images/office.jpg">
-    </div>
+    
     <div class="card-content">
       <span class="card-title activator grey-text text-darken-4">HTML & CSS</span>
-      <p>基本的なコーディングをすることができます。</p>
+      <p>基本的な知識をProgateで学習しました。</p>
     </div>
   </div>
   
   <div class="card">
-    <div class="card-image waves-effect waves-block waves-light">
-      <img class="activator" src="images/office.jpg">
-    </div>
+    
     <div class="card-content">
       <span class="card-title activator grey-text text-darken-4">Vue.js</span>
+      <p>基本的な知識をProgateで学習しました。</p>
     </div>
   </div>
   
   <div class="card">
-    <div class="card-image waves-effect waves-block waves-light">
-      <img class="activator" src="images/office.jpg">
-    </div>
+    
     <div class="card-content">
       <span class="card-title activator grey-text text-darken-4">Ruby</span>
+      <p>基本的な知識をProgateで学習しました。</p>
     </div>
   </div>
   
   <div class="card">
-    <div class="card-image waves-effect waves-block waves-light">
-      <img class="activator" src="images/office.jpg">
-    </div>
+    
     <div class="card-content">
       <span class="card-title activator grey-text text-darken-4">Rubyonrails</span>
+      <p>基本的な知識をProgateで学習しました。</p>
     </div>
   </div>
   
@@ -47,14 +42,15 @@
 <style scoped>
 
 .card-wrapper{
-  display: flex;
-  width: 100%;
+  margin:0 auto;
+  padding-top: 40px;
 }
 
 .card{
- width: 80%;
+ float:left;
+ width: 40%;
  height: 100%;
-  margin: 20px;
+  
 }
 
 </style>

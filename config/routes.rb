@@ -5,4 +5,5 @@ Rails.application.routes.draw do
     get '/about',   to: 'home#index'
     get '/myskills',   to: 'home#index'
     get '/works', to: 'home#index'
+    get '/contacts', to: 'home#index'
 end

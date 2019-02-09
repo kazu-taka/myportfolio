@@ -4,6 +4,7 @@ import About from '../components/about.vue'
 import Main from '../components/main.vue'
 import Myskills from '../components/myskills.vue'
 import Works from '../components/works.vue'
+import Contacts from '../components/contacts.vue'
 
 Vue.use(VueRouter)
 
@@ -14,5 +15,6 @@ export default new VueRouter({
     { path: '/about', component: About },
     { path: '/myskills', component: Myskills },
     { path: '/works', component: Works },
+    { path: '/contacts', component: Contacts },
   ],
 })

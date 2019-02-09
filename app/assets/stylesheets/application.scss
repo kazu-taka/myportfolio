@@ -16,7 +16,7 @@
 
 /* Materialize */
 @import "materialize/components/color-variables";
-$primary-color: color("brown", "lighten-4") !default;
+$primary-color: color("grey", "darken-2") !default;
 $secondary-color: color("cyan", "base") !default;
 @import 'materialize';
 @import 'material_icons';

@@ -1,9 +1,7 @@
 <template>
   <div class="card-wrapper"> 
   <div class="card">
-    <div class="card-image waves-effect waves-block waves-light">
-      <img src='assets/images/app.image.png' />
-    </div>
+    
     <div class="card-content">
       <span class="card-title activator grey-text text-darken-4">Tsukutta!<i class="material-icons right">more_vert</i></span>
       <p><a href="https://tsukutta.herokuapp.com/">Tsukutta!</a></p>
@@ -15,9 +13,7 @@
   </div>
   
   <div class="card">
-    <div class="card-image waves-effect waves-block waves-light">
-      <img class="activator" src="images/office.jpg">
-    </div>
+    
     <div class="card-content">
       <span class="card-title activator grey-text text-darken-4">portfolio<i class="material-icons right">more_vert</i></span>
       <p><a href="#">Ayaka's portfolio</a></p>
@@ -29,9 +25,7 @@
   </div>
   
   <div class="card">
-    <div class="card-image waves-effect waves-block waves-light">
-      <img class="activator" src="images/office.jpg">
-    </div>
+    
     <div class="card-content">
       <span class="card-title activator grey-text text-darken-4">time management app<i class="material-icons right">more_vert</i></span>
       <p><a href="#">Coming soon</a></p>
@@ -43,9 +37,7 @@
   </div>
   
   <div class="card">
-    <div class="card-image waves-effect waves-block waves-light">
-      <img class="activator" src="images/office.jpg">
-    </div>
+    
     <div class="card-content">
       <span class="card-title activator grey-text text-darken-4">Card Title<i class="material-icons right">more_vert</i></span>
       <p><a href="#">This is a link</a></p>
@@ -63,15 +55,13 @@
 <style scoped>
 
 .card-wrapper{
-  height: 500px;
-  width: 1000px;
   padding-top: 40px;
 }
 
 .card{
   float:left;
  width: 40%;
- height: 40%;
+ height: 150px;
  margin:20px;
 
 }
