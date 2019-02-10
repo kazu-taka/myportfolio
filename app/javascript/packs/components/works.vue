@@ -1,5 +1,6 @@
 <template>
-  <div class="card-wrapper"> 
+  <div class="card-wrapper">
+  <div class="cards"> 
   <div class="card">
     
     <div class="card-content">
@@ -31,7 +32,7 @@
       <p><a href="#">Coming soon</a></p>
     </div>
     <div class="card-reveal">
-      <span class="card-title grey-text text-darken-4">自分にとって毎日すべきタスクを見つけ出すアプリ<i class="material-icons right">close</i></span>
+      <span class="card-title grey-text text-darken-4">時間管理マトリクスapp<i class="material-icons right">close</i></span>
       <p>Vue.jsとrailsで時間管理マトリクスのアプリを作成中です。タスクに対して重要度と緊急度を与え、グラフで可視化させるアプリです。最も重要だが緊急度は低いタスクを発見することで人生を変える手助けをするアプリです。</p>
     </div>
   </div>
@@ -39,16 +40,16 @@
   <div class="card">
     
     <div class="card-content">
-      <span class="card-title activator grey-text text-darken-4">Card Title<i class="material-icons right">more_vert</i></span>
-      <p><a href="#">This is a link</a></p>
+      <span class="card-title activator grey-text text-darken-4">Comig Soon<i class="material-icons right">more_vert</i></span>
+      <p><a href="#">coming soon</a></p>
     </div>
     <div class="card-reveal">
-      <span class="card-title grey-text text-darken-4">Card Title<i class="material-icons right">close</i></span>
-      <p>Here is some more information about this product that is only revealed once clicked on.</p>
+      <span class="card-title grey-text text-darken-4">Coming Soon<i class="material-icons right">close</i></span>
+      <p>アイデアをこつこつ貯めていますが、技術力がないのでしばらくお待ちください。</p>
     </div>
   </div>
+  </div>
 </div>
-  
   
 </template>
 
@@ -56,14 +57,24 @@
 
 .card-wrapper{
   padding-top: 40px;
+  display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.cards{
+  width:900px;
 }
 
 .card{
   float:left;
- width: 40%;
+ width: 400px;
  height: 150px;
- margin:20px;
-
+ margin-left:20px;
+  margin-right:10px;
 }
+
+
+
 
 </style>
